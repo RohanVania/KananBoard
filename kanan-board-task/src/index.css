@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 200px) and (max-width: 470px) {
+  .modal-content {
+    width: 350px !important;
+  }
+}

@@ -1,0 +1,5 @@
+@import url("../Modal/Modal.css");
+
+.modal-content {
+  box-shadow: -8px 8px 0px #e03aba;
+}

@@ -1,0 +1,48 @@
+.card-container {
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  margin-block: 20px;
+  cursor: move;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.card-title {
+  text-transform: capitalize;
+  color: #45178b;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.trash,
+.edit {
+  cursor: pointer;
+
+  transition: 0.5s all;
+}
+
+.trash:hover {
+  color: red;
+}
+.edit:hover {
+  color: blueviolet;
+}
+.card-body {
+  max-width: 100%;
+
+  box-shadow: 0px 0px 2px 1px rgb(220, 215, 215);
+  margin-block-start: 1.2rem;
+  margin-block-end: 0.4rem;
+  padding: 8px;
+  font-size: 1.2rem;
+}

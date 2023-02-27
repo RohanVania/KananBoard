@@ -1,0 +1,11 @@
+.header-title {
+  text-align: center;
+  max-width: 1200px;
+  padding: 15px;
+  margin-inline: auto;
+  background-color: black;
+  color: white;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  border-left: 10px solid #fcd307;
+}

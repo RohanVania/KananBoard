@@ -1,0 +1,77 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(161, 160, 160, 0.9);
+}
+
+.modal-content {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 450px;
+  margin-inline: auto;
+  color: black;
+  padding: 15px;
+  box-shadow: -10px 10px 0px #fcd307;
+}
+
+/* * Modal Form */
+
+.form-heading {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.form-add {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input-1-container,
+.input-2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.form-add label {
+  font-size: 1.4rem;
+}
+
+.form-add input {
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+}
+
+.form-add textarea {
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  height: 15%;
+  padding: 8px;
+  margin-right: 3px;
+  font-size: 1.2rem;
+}
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  margin-block-end: 1rem;
+  margin-inline: 1.2rem;
+}

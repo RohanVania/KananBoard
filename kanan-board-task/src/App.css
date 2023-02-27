@@ -1,0 +1,67 @@
+.grid-container {
+  display: grid;
+  max-width: 1190px;
+  margin-inline: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  gap: 1.3rem;
+  margin-block: 1.2rem;
+}
+
+.btn-container {
+  display: grid;
+  max-width: 1170px;
+  margin-inline: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  gap: 1.3rem;
+  margin-block: 1.2rem;
+}
+
+.column {
+  margin: 8px;
+
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.column-todo-list-title {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 0px;
+  background-color: black;
+  color: white;
+  border-left: 10px solid #e03aba;
+  margin-block-end: 10px;
+}
+
+.add-button {
+  width: 100%;
+  cursor: pointer;
+  margin-block-start: 1.2rem;
+  border-radius: 22px;
+  padding: 12px 17px;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  color: black;
+  transition: 0.5s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.add-button:hover {
+  border: none;
+  background-color: black;
+  color: white;
+  box-shadow: none;
+}
+
+.add-button .plusicon {
+  color: #e03aba;
+  font-size: 1.3rem;
+}

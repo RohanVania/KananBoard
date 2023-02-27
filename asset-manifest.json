@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KananBoard/static/css/main.60fc572e.css",
+    "main.js": "/KananBoard/static/js/main.94473be6.js",
+    "index.html": "/KananBoard/index.html",
+    "main.60fc572e.css.map": "/KananBoard/static/css/main.60fc572e.css.map",
+    "main.94473be6.js.map": "/KananBoard/static/js/main.94473be6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60fc572e.css",
+    "static/js/main.94473be6.js"
+  ]
+}
